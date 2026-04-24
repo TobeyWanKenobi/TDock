@@ -2,7 +2,7 @@ html{
     font-family: "Lexend", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    background-color: rgb(59, 59, 59);
+    background-color: rgb(195, 195, 195);
     color: white;
 
     h6,h5,h4,h3,h2,h1{
@@ -12,13 +12,14 @@ html{
 }
 
 head{
-    background-color: rgb(59, 59, 59);
+    background-color: rgb(195, 195, 195);
     color: white;
 }
 
 body{
-    background-color: rgb(59, 59, 59);
     color: white;
+    background: #5e5e5e;
+    background: radial-gradient(circle, rgba(94, 94, 94, 1) 0%, rgba(18, 18, 18, 1) 50%);
 }
 
 
@@ -46,6 +47,8 @@ body{
     border-width: 4x;
     padding-left: 5px;
     padding-right: 5px;
+    background: #002542;
+    background: radial-gradient(circle,rgba(0, 37, 66, 1) 0%, rgba(0, 0, 0, 1) 100%);
     
 }
 
@@ -77,6 +80,17 @@ body{
     
 }
 
-h1{
-    
+.section .imgs{
+    size: 50%;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    width: 30vw;
+    min-width: 30px;
+}
+
+.section .imgs h6{
+    padding: 10px;
+    size: 5px;
+
 }

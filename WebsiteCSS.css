@@ -107,8 +107,13 @@ body{
 .section .sectionImgsColumn{
     flex: auto;
     padding: 5px;
+    
     /* justify-content: space-between; */
     /* align-items: left; optional */
+}
+
+.section .sectionImgsColumn h6{
+    text-align: center;
 }
 
 footer{

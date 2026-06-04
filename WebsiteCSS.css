@@ -98,6 +98,18 @@ body{
 
 }
 
+.section .sectionImgsRow{
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: left; optional */
+}
+
+.section .sectionImgsColumn{
+    flex: auto;
+    padding: 5px;
+    /* justify-content: space-between; */
+    /* align-items: left; optional */
+}
 
 footer{
     margin-top: 5px;
